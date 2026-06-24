@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/_02281109_448383867311924_6400901512632934581_n_removebg_preview"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/_02281109_448383867311924_6400901512632934581_n_removebg_preview"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DietPLAnApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".DAYY7"
+            android:exported="false" />
+        <activity
+            android:name=".DAYY6"
+            android:exported="false" />
+        <activity
+            android:name=".DAYY5"
+            android:exported="false" />
+        <activity
+            android:name=".DAYY4"
+            android:exported="false" />
+        <activity
+            android:name=".DAYY3"
+            android:exported="false" />
+        <activity
+            android:name=".DAYY2"
+            android:exported="false" />
+        <activity
+            android:name=".DAYY1"
+            android:exported="false" />
+        <activity
+            android:name=".DAY7"
+            android:exported="false" />
+        <activity
+            android:name=".DAY6"
+            android:exported="false" />
+        <activity
+            android:name=".DAY5"
+            android:exported="false" />
+        <activity
+            android:name=".DAY4"
+            android:exported="false" />
+        <activity
+            android:name=".DAY3"
+            android:exported="false" />
+        <activity
+            android:name=".DAY2"
+            android:exported="false" />
+        <activity
+            android:name=".DAY1"
+            android:exported="false" />
+        <activity
+            android:name=".Log2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Login1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
